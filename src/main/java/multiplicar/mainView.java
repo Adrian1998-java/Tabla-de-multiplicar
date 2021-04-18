@@ -49,7 +49,7 @@ public class mainView implements Initializable{
 		int i = 1;
 		
 		numberStringList.getItems().clear();
-		while( i <= 10) {
+		while(i <= 10) {
 			numberStringList.getItems().add(numberSpinner.getValue().toString() + " * " + i + " = " + (numberSpinner.getValue() * i));
 			i++;
 		}

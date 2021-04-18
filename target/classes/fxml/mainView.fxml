@@ -4,6 +4,8 @@
 <?import javafx.scene.control.Label?>
 <?import javafx.scene.control.ListView?>
 <?import javafx.scene.control.Spinner?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
 <?import javafx.scene.layout.ColumnConstraints?>
 <?import javafx.scene.layout.GridPane?>
 <?import javafx.scene.layout.RowConstraints?>
@@ -37,5 +39,10 @@
             <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
          </GridPane.margin>
       </ListView>
+      <ImageView fitHeight="209.0" fitWidth="188.0" pickOnBounds="true" preserveRatio="true" GridPane.columnSpan="2147483647" GridPane.rowIndex="2">
+         <image>
+            <Image url="@../images/Image_AZ.jpeg" />
+         </image>
+      </ImageView>
    </children>
 </GridPane>

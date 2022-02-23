@@ -30,10 +30,10 @@ public class mainView implements Initializable{
 		numberSpinner.setValueFactory(totalNumberSpinner);
 		numberSpinner.setEditable(true);
 		
-		añadirList();
+		aniadirList();
 		numberSpinner.valueProperty().addListener((o, ov, nv) -> {
 			System.out.println("Old Value : "+ ov + "/ New value : "+ nv);
-			añadirList();
+			aniadirList();
 		});
 		
 		
@@ -45,7 +45,7 @@ public class mainView implements Initializable{
 		loader.load();
 	}
 	
-	public void añadirList() {
+	public void aniadirList() {
 		int i = 1;
 		
 		numberStringList.getItems().clear();
